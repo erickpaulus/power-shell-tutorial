@@ -216,6 +216,12 @@ $file = $file | Where-Object { $_ -ne $file[1] }
 # Write the updated content back to the file
 $file | Set-Content -Path "C:\path\to\your\file.txt"
 ```
+- to monitor a File for Real-Time Updates
+```powershell
+Get-Content -Path "C:\path\to\your\file.txt" -Tail 10 -Wait
+```
+
+
 ## 12. Tips and Best Practices
 
 - **Use Aliases**: Many common PowerShell commands have aliases (`ls` for `Get-ChildItem`, `cd` for `Set-Location`, `cat` for `Get-Content`). Use them for quicker access.
