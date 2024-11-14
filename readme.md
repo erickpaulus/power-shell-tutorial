@@ -180,7 +180,7 @@ PowerShell’s scripting capabilities let you automate complex tasks by writing 
 
 ## Example Script: Automate Backup
 
-Here’s a sample script that copies files from one folder to another, creating a backup:
+To copy files from one folder to another, then create a backup:
 
 ```powershell
 $source = "C:\path\to\source\folder"
@@ -201,4 +201,4 @@ Write-Output "Backup completed successfully!"
 - **Explore cmdlets**: Use `Get-Command` and `Get-Help` to discover and learn new cmdlets.
 - **Microsoft PowerShell Documentation**: Microsoft offers comprehensive documentation, tutorials, and example scripts.
 
-With this knowledge, you can start using PowerShell effectively for everyday tasks and automation.
+
